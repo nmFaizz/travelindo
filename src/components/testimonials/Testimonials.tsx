@@ -6,7 +6,7 @@ export default function Testimonials() {
         <div className="mt-32 flex lg:px-32 sm:px-12 px-4">
             <div className="p-4">
                 <section>
-                    <p>"The waves getting here are pretty awesome. The road acces is still narrow, but a lot of hidden paradise here. The beach is beautiful, the water is blue with lots of cliffs. The underwater spots are also very beautiful, there are various types of fish, the coral reef&apos;s are still colorful."</p>
+                    <p>&quot;The waves getting here are pretty awesome. The road acces is still narrow, but a lot of hidden paradise here. The beach is beautiful, the water is blue with lots of cliffs. The underwater spots are also very beautiful, there are various types of fish, the coral reef&apos;s are still colorful.&quot;</p>
                 </section>
 
                 <div className="flex justify-between">
