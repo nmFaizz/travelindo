@@ -44,21 +44,21 @@ export default function PopularPackages() {
         },
         {
             id: 4,
-            img: '/pink-beach.jpg',
-            imgAlt: 'pink beach',
-            placeName: 'Pink Beach',
-            price: 580, 
+            img: '/seribu-island.jpg',
+            imgAlt: 'Pulau Seribu',
+            placeName: 'Seribu Island',
+            price: 380, 
             perDay: 1,
-            guests: 3
+            guests: 4
         },
         {
             id: 5,
-            img: '/pink-beach.jpg',
-            imgAlt: 'pink beach',
-            placeName: 'Pink Beach',
-            price: 580, 
+            img: '/niagara-falls.jpg',
+            imgAlt: 'niagara falls',
+            placeName: 'Niagara Falls',
+            price: 880, 
             perDay: 1,
-            guests: 3
+            guests: 5
         },
     ]
 

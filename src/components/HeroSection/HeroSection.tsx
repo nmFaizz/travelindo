@@ -1,13 +1,10 @@
 import Image from "next/image"
 import { IoSearch } from "react-icons/io5";
+import DestinationCarousel from "../destinationCarousel/DestinationCarousel";
+import type { Images } from "@/utils";
 
 export default function HeroSection() {
 
-    type Images = {
-        id: number,
-        img: string,
-        imgAlt: string
-    }
 
     const images: Images[] = [
         {
@@ -54,9 +51,9 @@ export default function HeroSection() {
                 </div>
 
 
-                <div className="mt-16 max-w-[420px]">
+                <section className="mt-16 max-w-[420px]">
                     <p className="font-[500] text-[14px] md:text-[1rem] text-center md:text-start">Much beautiful and refreshing places as you need to satisfy your best trip and make an amazing experience. Go explore our packages</p>
-                </div>
+                </section>
 
                 <button className="mt-8 tracking-[var(--spacing-wide)] bg-[var(--red-primary)] text-[var(--white-primary)] py-3 px-5 text-[12px]">
                     EXPLORE PACKAGES
@@ -65,18 +62,7 @@ export default function HeroSection() {
 
 
             <div className=" h-full flex gap-5 overflow-x-scroll no-scrollbar pl-4 md:pl-0 w-full">
-                {images.map((item: Images) => 
-                    <div key={item.id} className="h-[180px] w-[120px] md:h-full md:w-[25rem] bg-black flex-shrink-0">
-                        <Image 
-                            src={item.img}
-                            width={520}
-                            height={720}
-                            alt={item.imgAlt}
-                            style={{width: '100%', height: '100%', objectFit: 'cover'}}
-                            priority
-                        />
-                    </div>
-                )}
+                <DestinationCarousel images={images} />
             </div>
 
         </div>
