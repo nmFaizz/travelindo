@@ -36,8 +36,8 @@ export default function OurServices() {
     return (
         <div className="lg:px-32 sm:px-12 px-4">
             <div>
-                <p className="text-[12px] tracking-[var(--spacing-wide)]">SPECIAL FOR YOU</p>
-                <h1 className="font-[800] text-3xl mt-2 mb-12">Our Services</h1>
+                <p className="text-[10px] md:text-[12px] tracking-[var(--spacing-wide)]">SPECIAL FOR YOU</p>
+                <h1 className="font-[800] text-xl md:text-3xl mt-2 mb-12">Our Services</h1>
             </div>
 
             <div className="flex gap-8 flex-col md:flex-row items-center md:items-start">

@@ -65,18 +65,16 @@ export default function PopularPackages() {
     return (
         <div className="lg:pl-32 sm:pl-12 pl-4 py-24">
             <div className="pb-16 pr-4 md:pr-32">
-                <div>
-                    <p className="tracking-[var(--spacing-wide)] text-[10px] md:text-[12px]">CHOOSE WHERE TO GO</p>
-                </div>
+                <p className="tracking-[var(--spacing-wide)] text-[10px] md:text-[12px]">CHOOSE WHERE TO GO</p>
 
                 <div className="flex justify-between">
                     <h1 className="font-[800] text-xl md:text-3xl mt-2">Popular packages</h1>
-                    <div className="flex text-[1.1rem] gap-3">
-                        <div className="rounded-full w-12 h-12 flex items-center justify-center shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px]">
+                    <div className="flex text-[13px] md:text-[1.1rem] gap-3">
+                        <div className="rounded-full md:w-12 md:h-12 w-10 h-10 flex items-center justify-center shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px]">
                             <BiSolidLeftArrow className="" />
                         </div>
 
-                        <div className="rounded-full w-12 h-12 flex items-center justify-center shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px]">
+                        <div className="rounded-full w-10 h-10 md:w-12 md:h-12 flex items-center justify-center shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px]">
                             <BiSolidRightArrow className="" />
                         </div>   
                     </div>
