@@ -42,7 +42,7 @@ export default function Footer() {
     ]
 
     return (
-        <footer className="bg-[var(--black-primary)] text-[var(--white-primary)] py-12 px-8 sm:px-16 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-16">
+        <footer className="bg-[var(--black-primary)] text-[var(--white-primary)] py-12 px-8 sm:px-16 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-16 text-[12px] sm:text-[1rem]">
             <div>
                 <div className="mb-8">
                     <Logo />
@@ -56,15 +56,15 @@ export default function Footer() {
 
                 <div className="border-t-[1px] py-5">
                     <div className="flex gap-5 justify-center">
-                        <div className="border-[1px] p-2 rounded-full text-[1.2rem]">
+                        <div className="border-[1px] p-2 rounded-full text-[0.8rem] sm:text-[1.2rem]">
                             <FaInstagram />
                         </div>
 
-                        <div className="border-[1px] p-2 rounded-full text-[1.2rem]">
+                        <div className="border-[1px] p-2 rounded-full text-[0.8rem] sm:text-[1.2rem]">
                             <FaTwitter />
                         </div>
                         
-                        <div className="border-[1px] p-2 rounded-full text-[1.2rem]">
+                        <div className="border-[1px] p-2 rounded-full text-[0.8rem] sm:text-[1.2rem]">
                             <FaFacebook />
                         </div>
                     </div>

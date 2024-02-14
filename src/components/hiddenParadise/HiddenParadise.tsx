@@ -39,7 +39,7 @@ export default function HiddenParadise() {
             </div>
 
             <section className="mr-4 sm:mr-12 lg:mr-32">
-                <p className="max-w-[900px]">Bali island is a province of Indonesia and the westernmost of the lesser Sunda islands. Bali is Indonesia&apos;s main tourist destination. it is renewed for its highly developed arts, including traditional and modern dance, sculpture, painting, leather, metalworking, and music.</p>
+                <p className="max-w-[900px] text-[12px] md:text-[1rem]">Bali island is a province of Indonesia and the westernmost of the lesser Sunda islands. Bali is Indonesia&apos;s main tourist destination. it is renewed for its highly developed arts, including traditional and modern dance, sculpture, painting, leather, metalworking, and music.</p>
             </section>
 
             <div className="flex gap-5 h-auto md:h-[450px] mt-12 overflow-x-scroll no-scrollbar">

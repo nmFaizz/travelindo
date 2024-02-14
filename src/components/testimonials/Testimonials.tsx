@@ -17,23 +17,23 @@ export default function Testimonials() {
                     </div>
                 </div>
 
-                <section className="bg-stone-100 p-4 mt-8">
+                <section className="bg-stone-100 p-4 mt-8 text-[12px] md:text-[1rem]">
                     <p className="">&quot;The waves getting here are pretty awesome. The road acces is still narrow, but a lot of hidden paradise here. The beach is beautiful, the water is blue with lots of cliffs. The underwater spots are also very beautiful, there are various types of fish, the coral reef&apos;s are still colorful.&quot;</p>
                 </section>
 
                 <div className="flex justify-between mt-12">
                     <div>
-                        <h1 className="font-[800]">Antasania Emily</h1>
-                        <p className="mt-2">Sanfransisco, California</p>
+                        <h1 className="font-[800] text-[12px] md:text-[1rem]">Antasania Emily</h1>
+                        <p className="mt-2 text-[12px] md:text-[1rem]">Sanfransisco, California</p>
                     </div>
 
                     <div className="flex gap-2">
                         <div className="md:border-[1px] hover:cursor-pointer bg-stone-100 hover:text-[var(--white-primary)] md:bg-none md:rounded-full hover:bg-[var(--red-primary)] md:w-12 md:h-12 w-10 h-10 flex items-center justify-center">
-                            <BiSolidLeftArrow className="" />
+                            <BiSolidLeftArrow className="text-[12px] md:text-[1rem]" />
                         </div>
 
                         <div className="md:border-[1px] hover:cursor-pointer bg-stone-100 hover:text-[var(--white-primary)] md:rounded-full hover:bg-[var(--red-primary)]  w-10 h-10 md:w-12 md:h-12 flex items-center justify-center">
-                            <BiSolidRightArrow className="" />
+                            <BiSolidRightArrow className="text-[12px] md:text-[1rem]" />
                         </div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@ export default function Testimonials() {
 
 
             <div className="flex px-4 gap-4">
-                <div className="bg-black flex-1 h-[260px] md:w-[320px] lg:w-[560px] md:h-[630px]">
+                <div className="bg-black flex-1 h-[200px] max-w-[110px] md:max-w-none md:w-[320px] lg:w-[560px] md:h-[630px]">
                     <Image 
                         src='/testimonial.jpg'
                         width={560}
