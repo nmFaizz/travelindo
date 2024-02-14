@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function PopularItem({ placeName, price, perDay, guests, img, imgAlt }: Popular) {
     return (
-        <div className="h-[19rem] md:h-[28rem] bg-black w-[15rem]  md:w-[25rem] flex-shrink-0 text-[var(--white-primary)] relative">
+        <div className="h-[19rem] md:h-[32rem] bg-black w-[15rem]  md:w-[25rem] flex-shrink-0 text-[var(--white-primary)] relative">
             <Image
                 src={img}
                 alt={imgAlt}

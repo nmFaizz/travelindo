@@ -36,7 +36,7 @@ export default function HeroSection() {
 
     return (
         <div className={`flex flex-col md:flex-row items-center w-full lg:pl-32 sm:pl-12 py-12 gap-12 md:h-[80vh] h-auto`}>
-            <div className="w-full md:w-[650px] flex items-center flex-col md:block px-4 md:px-0">
+            <div className="w-full sm:pr-12 pr-4 md:w-[650px] flex items-center flex-col md:block px-4 md:px-0">
                 <div className="">
                     <h1 className="font-[700] text-[2.4rem] text-center md:text-start">Discover</h1>
                     <h1 className="font-[700] text-[2.4rem] text-center md:text-start">Your Best Trip!</h1>

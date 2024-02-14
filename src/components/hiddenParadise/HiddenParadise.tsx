@@ -25,7 +25,7 @@ export default function HiddenParadise() {
         },
         {
             id: 5,
-            img: '/',
+            img: '/bali-5.jpg',
             imgAlt: 'bali',
         },
     ] 
@@ -39,14 +39,14 @@ export default function HiddenParadise() {
             </div>
 
             <section className="mr-4 sm:mr-12 lg:mr-32">
-                <p>Bali island is a province of Indonesia and the westernmost of the lesser Sunda islands. Bali is Indonesia&apos;s main tourist destination. it is renewed for its highly developed arts, including traditional and modern dance, sculpture, painting, leather, metalworking, and music.</p>
+                <p className="max-w-[900px]">Bali island is a province of Indonesia and the westernmost of the lesser Sunda islands. Bali is Indonesia&apos;s main tourist destination. it is renewed for its highly developed arts, including traditional and modern dance, sculpture, painting, leather, metalworking, and music.</p>
             </section>
 
-            <div className="flex gap-5 h-[450px] mt-12 overflow-x-scroll no-scrollbar">
+            <div className="flex gap-5 h-auto md:h-[450px] mt-12 overflow-x-scroll no-scrollbar">
                 <DestinationCarousel images={images} />
             </div>
 
-            <div className="flex justify-center text-[var(--white-primary)] mt-12">
+            <div className="flex justify-center text-[var(--white-primary)] mt-12 mr-4 sm:mr-12 lg:mr-32">
                 <button className="bg-[var(--red-primary)] px-4 py-2 tracking-[var(--spacing-wide)]">
                     EXPLORE BALI
                 </button>

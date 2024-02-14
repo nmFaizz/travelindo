@@ -34,14 +34,14 @@ export default function OurServices() {
 
 
     return (
-        <div className="lg:px-32 sm:px-12 px-4">
+        <div className="lg:px-32 sm:px-12 px-4 md:mt-12">
             <div>
                 <p className="text-[10px] md:text-[12px] tracking-[var(--spacing-wide)]">SPECIAL FOR YOU</p>
                 <h1 className="font-[800] text-xl md:text-3xl mt-2 mb-12">Our Services</h1>
             </div>
 
             <div className="flex gap-8 flex-col md:flex-row items-center md:items-start">
-                <div className="w-full h-[140px] md:w-[550px] md:h-[600px]">
+                <div className="w-full h-[140px] md:w-[550px] md:h-[520px]">
                     <Image 
                         src='/jeep.jpg'
                         width={550}
@@ -55,7 +55,6 @@ export default function OurServices() {
 
                 <ServicesList services={services} />
             </div>
-
             <div className="flex justify-center md:justify-normal ">
                 <button className=" bg-[var(--red-primary)] text-[var(--white-primary)] py-2 px-4 mt-12 tracking-[var(--spacing-wide)]">
                     SEE ALL
