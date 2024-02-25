@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --red-primary: #dc483e;
+  --orange-primary: #dc483e;
   --white-primary: #ffffff;
   --black-primary: #191e26;
   --spacing-wide: 3px;

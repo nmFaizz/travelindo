@@ -42,7 +42,7 @@ export default function Footer() {
     ]
 
     return (
-        <footer className="bg-[var(--black-primary)] text-[var(--white-primary)] py-12 px-8 sm:px-16 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-16 text-[12px] sm:text-[1rem]">
+        <footer className="bg-black-primary text-white-primary py-12 px-8 sm:px-16 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-16 text-[12px] sm:text-[1rem]">
             <div>
                 <div className="mb-8">
                     <Logo />
@@ -89,10 +89,10 @@ export default function Footer() {
                 <div className="flex w-full">
                     <input 
                         type="text" 
-                        className="w-full outline-none text-[var(--black-primary)] px-2 text-[12px]" 
+                        className="w-full outline-none text-black-primary px-2 text-[12px]" 
                         placeholder="Enter your E-Mail here.."
                     />
-                    <button className="bg-[var(--red-primary)] p-1">
+                    <button className="bg-orange-primary p-1">
                             <IoMailOutline className="text-2xl" />
                     </button>
                 </div>

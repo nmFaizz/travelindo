@@ -32,7 +32,7 @@ export default function WhyChooseUs() {
             <div className="flex flex-col md:flex-row justify-evenly gap-12 py-24">
                 {travelData.map((data: TravelData) =>
                     <div key={data.id}>
-                        <p className="text-center text-[3.2rem] text-[var(--red-primary)] font-[700]">{data.value}+</p>
+                        <p className="text-center text-[3.2rem] text-orange-primary font-[700]">{data.value}+</p>
                         <p className="text-center">{data.dataName}</p>
                     </div>
                 )}

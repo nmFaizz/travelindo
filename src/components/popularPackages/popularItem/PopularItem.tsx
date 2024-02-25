@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function PopularItem({ placeName, price, perDay, guests, img, imgAlt }: Popular) {
     return (
-        <div className="h-[19rem] md:h-[32rem] bg-black w-[15rem]  md:w-[25rem] flex-shrink-0 text-[var(--white-primary)] relative">
+        <div className="h-[19rem] md:h-[32rem] bg-black w-[15rem]  md:w-[25rem] flex-shrink-0 text-white-primary relative">
             <Image
                 src={img}
                 alt={imgAlt}
@@ -22,7 +22,7 @@ export default function PopularItem({ placeName, price, perDay, guests, img, img
                             <p className="text-[10px] md:text-sm">For {guests} {guests > 1 ? 'Guests' : 'Guest'}</p>
                         </div>
 
-                        <button className="w-fit text-[12px] md:text-[1rem] px-2 md:px-4 py-2 mt-4 hover:bg-[var(--red-primary)] hover:border-none border-[1px] tracking-[var(--spacing-wide)] font-[600]">
+                        <button className="w-fit text-[12px] md:text-[1rem] px-2 md:px-4 py-2 mt-4 hover:bg-orange-primary hover:border-none border-[1px] tracking-[var(--spacing-wide)] font-[600]">
                             BOOK NOW 
                         </button>
                     </div>

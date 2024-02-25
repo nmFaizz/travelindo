@@ -56,7 +56,7 @@ export default function OurServices() {
                 <ServicesList services={services} />
             </div>
             <div className="flex justify-center md:justify-normal ">
-                <button className=" bg-[var(--red-primary)] text-[var(--white-primary)] py-2 px-4 mt-12 tracking-[var(--spacing-wide)]">
+                <button className="bg-red-primary text-white-primary py-2 px-4 mt-12 tracking-[var(--spacing-wide)]">
                     SEE ALL
                 </button>
             </div>

@@ -28,11 +28,11 @@ export default function Testimonials() {
                     </div>
 
                     <div className="flex gap-2">
-                        <div className="md:border-[1px] hover:cursor-pointer bg-stone-100 hover:text-[var(--white-primary)] md:bg-none md:rounded-full hover:bg-[var(--red-primary)] md:w-12 md:h-12 w-10 h-10 flex items-center justify-center">
+                        <div className="md:border-[1px] hover:cursor-pointer bg-stone-100 hover:text-white-primary md:bg-none md:rounded-full hover:bg-orange-primary md:w-12 md:h-12 w-10 h-10 flex items-center justify-center">
                             <BiSolidLeftArrow className="text-[12px] md:text-[1rem]" />
                         </div>
 
-                        <div className="md:border-[1px] hover:cursor-pointer bg-stone-100 hover:text-[var(--white-primary)] md:rounded-full hover:bg-[var(--red-primary)]  w-10 h-10 md:w-12 md:h-12 flex items-center justify-center">
+                        <div className="md:border-[1px] hover:cursor-pointer bg-stone-100 hover:text-white-primary md:rounded-full hover:bg-orange-primary  w-10 h-10 md:w-12 md:h-12 flex items-center justify-center">
                             <BiSolidRightArrow className="text-[12px] md:text-[1rem]" />
                         </div>
                     </div>

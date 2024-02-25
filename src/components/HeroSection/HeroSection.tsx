@@ -44,7 +44,7 @@ export default function HeroSection() {
 
                 <div className="border-[1px] border-gray-300 flex mt-16 p-1 w-full">
                     <input type="text" placeholder="Search country, city, or destination" className="w-full px-4 text-sm outline-none" />
-                    <button className="tracking-[var(--spacing-wide)] bg-[var(--red-primary)] text-[var(--white-primary)] py-3 px-5 text-[12px]">
+                    <button className="tracking-[var(--spacing-wide)] bg-orange-primary text-white-primary py-3 px-5 text-[12px]">
                         <p className="hidden md:block">SEARCH</p>
                         <IoSearch className="block md:hidden text-xl"/>
                     </button>
@@ -55,7 +55,7 @@ export default function HeroSection() {
                     <p className="font-[500] text-[14px] md:text-[1rem] text-center md:text-start">Much beautiful and refreshing places as you need to satisfy your best trip and make an amazing experience. Go explore our packages</p>
                 </section>
 
-                <button className="mt-8 tracking-[var(--spacing-wide)] bg-[var(--red-primary)] text-[var(--white-primary)] py-3 px-5 text-[12px]">
+                <button className="mt-8 tracking-[var(--spacing-wide)] bg-orange-primary text-white-primary py-3 px-5 text-[12px]">
                     EXPLORE PACKAGES
                 </button>
             </div>

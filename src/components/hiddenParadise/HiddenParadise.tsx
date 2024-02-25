@@ -46,8 +46,8 @@ export default function HiddenParadise() {
                 <DestinationCarousel images={images} />
             </div>
 
-            <div className="flex justify-center text-[var(--white-primary)] mt-12 mr-4 sm:mr-12 lg:mr-32">
-                <button className="bg-[var(--red-primary)] px-4 py-2 tracking-[var(--spacing-wide)]">
+            <div className="flex justify-center text-white-primary mt-12 mr-4 sm:mr-12 lg:mr-32">
+                <button className="bg-orange-primary px-4 py-2 tracking-[var(--spacing-wide)]">
                     EXPLORE BALI
                 </button>
             </div>
